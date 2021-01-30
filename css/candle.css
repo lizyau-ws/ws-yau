@@ -1,0 +1,175 @@
+@import url('https://fonts.googleapis.com/css?family=Work Sans');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    border: none;
+    font-family: 'Work Sans', sans-serif;
+}
+
+ /*BANNER IMG*/
+.banner{
+    width:100%;
+    height: 100vh;
+    background: -webkit-linear-gradient(rgba(73, 73, 73, 0.3), rgba(73, 73, 73, 0.3)), url("img/rose3.jpg");
+    background-size: cover;
+    background-position: center;
+}
+
+  /*NAV BAR*/
+.navbar {
+    float: right;
+    margin:auto;
+    padding: 3px 0;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.navbar a {
+  display: block;
+  color:white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 14px;
+}
+
+.navbar a:hover {
+  background: #ddd;
+  color: black;
+}
+
+ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+  
+li {
+    display: inline-block;
+    padding: 0 15px;
+}
+
+.leftcorner {
+    left: 18px;
+    top: 12px;
+    position: absolute;
+    overflow: visible;
+    width: 82px;
+    white-space: nowrap;
+    text-align: left;
+    font-family: Work Sans;
+    font-style: normal;
+    font-weight:bold ;
+    font-size: 18px;
+    color:white;
+}
+
+/* BANNER */
+.bannername{
+    width: 100%;
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    text-align: center;
+    color: white;
+}
+
+.bannername h1{
+    font-size: 45px;
+    margin-top: 80px;
+}
+
+/* CONTENT */
+.h2-title {
+    font-weight: 700;
+    font-size: 28px;
+    line-height: 40px;
+    padding-top: 30px;
+    margin-bottom: 10px;
+    -ms-word-wrap: break-word;
+    word-wrap: break-word;
+    text-align: left;
+    width: 720px;
+    margin: 20px auto;
+    max-width: 95%;
+}
+
+.bodytext {
+    margin-left: 26.5%;
+    font-size: 15px;
+    line-height: 26px;
+    color: #000;
+    width: 680px;
+    text-align: left;
+}
+
+/*CANDLE GALLERY */
+.candle-container{
+    width: 100%;
+}
+
+.candle-container img{
+    width: 30%;
+    float: left;
+    display: block;
+    margin: 2px;
+}
+
+ul {
+    list-style: none;
+    margin: 0px auto;
+    padding: 10px;
+    display: block;
+    max-width: 780px;
+    text-align: center;
+}
+
+.gallery{
+    width:100%;
+}
+
+/*NEXT PROJECT */
+.nav-links {
+    float: right;
+    padding: 40px 100px;
+    position: relative;
+}
+
+.nav-links a {
+    color: #000;
+    position: relative;
+    float: right;
+}
+
+.nav-links a:hover {
+    color: #000 ;
+}
+
+.nav-next {
+    display: inline-block;
+    width: 260px;
+    text-align: right;
+    position: relative;
+}
+
+.nav-next a {
+    font-weight: 700;
+    font-size: 22px;
+    line-height: 30px;
+}
+
+.nav-next .arrow-holder  {
+    display: block;
+    font-size: 50px;
+    transition: transform .3s ease;
+    position: absolute;
+    top: 0;
+    right: -70px;
+}
+
+.nav-next a:hover + .arrow-holder {
+    transform: translate(10px, 0);
+}

@@ -1,0 +1,158 @@
+@import url('https://fonts.googleapis.com/css?family=Work Sans');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    border: none;
+    font-family: 'Work Sans', sans-serif;
+    background-color: black;
+}
+
+/*.row {
+    display: flex;
+  }
+  
+.column {
+    flex: 1;
+    padding: 50px;
+} */
+
+ /*BANNER IMG*/
+
+.one_half{
+    width: 40%;
+    margin-top: 10%;
+    margin-right: 80px;
+    float: left;
+    position: relative;
+    margin-bottom: 30px;
+    color: white;
+}
+
+.text{
+    margin-left: 80px;
+}
+
+.last {
+    margin-right: 0 !important;
+    clear: right;
+}
+
+
+ul.archive-list {
+    list-style: none;
+    padding: 0;
+    text-align: left;
+}
+
+ul.archive-list li {
+    border-top: 1px solid #f7f7f7;
+    padding: 15px 20px;
+}
+
+ul.archive-list li:first-child {
+    border: none;
+}
+
+ul.archive-list li span {
+    font-weight: 700;
+    color: rgb(179, 175, 175);
+}
+
+
+.banner{
+    width:100%;
+}
+
+
+  /*NAV BAR*/
+.navbar {
+    float: right;
+    margin:auto;
+    padding: 3px 0;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.navbar a {
+  display: block;
+  color:rgb(255, 255, 255);
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 14px;
+}
+
+.navbar a:hover {
+  background: #ddd;
+  color: black;
+}
+
+ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+  
+li {
+    display: inline-block;
+    padding: 0 15px;
+}
+
+.leftcorner {
+    left: 18px;
+    top: 12px;
+    position: absolute;
+    overflow: visible;
+    width: 82px;
+    white-space: nowrap;
+    text-align: left;
+    font-family: Work Sans;
+    font-style: normal;
+    font-weight:bold ;
+    font-size: 18px;
+    color: white;
+}
+
+/* BUTTON */
+
+.button {
+    margin-top: 100px;
+    min-height: 1px;
+}
+
+.viewp {
+    color:black !important;
+    background-color: white;
+    padding: 17px 3px 17px 14px;
+    display: inline-block;
+    font-size: 12px;
+    font-weight: 40;
+    min-width: 150px;
+    text-align: center;
+    transition: opacity .3s ease;
+}
+
+.viewp:hover {
+    opacity: 0.8 !important;
+}
+
+.viewp {
+    cursor: pointer;   
+}
+
+.ba:link, 
+.ba:visited {
+    background-color:white;
+    color:black;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+  }
+  
+.ba:hover, 
+.ba:active {
+    background-color: white;
+  }

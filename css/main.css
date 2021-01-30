@@ -1,0 +1,130 @@
+@import url('https://fonts.googleapis.com/css?family=Work Sans');
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  border: none;
+  font-family: 'Work Sans', sans-serif;
+  background-color: black;
+}
+
+/*BANNER IMG*/
+.banner {
+  width: 100%;
+}
+
+/*NAV BAR*/
+.navbar {
+  float: right;
+  margin: auto;
+  padding: 3px 0;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.navbar a {
+  display: block;
+  color: rgb(255, 255, 255);
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 14px;
+}
+
+.navbar a:hover {
+  background: #ddd;
+  color: black;
+}
+
+ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+li {
+  display: inline-block;
+  padding: 0 15px;
+}
+
+.leftcorner {
+  left: 18px;
+  top: 12px;
+  position: absolute;
+  overflow: visible;
+  width: 82px;
+  white-space: nowrap;
+  text-align: left;
+  font-family: Work Sans;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 18px;
+  color: white;
+}
+
+/* Homepage Projects */
+.works {
+  display: flex;
+  top: 6%;
+  position: fixed;
+  bottom: 0px;
+  width: 100%;
+  height: 100vh;
+}
+
+.column {
+  margin-left: 20px;
+  float: left;
+  height: 100%;
+  max-width: fit-content;
+}
+
+/* Clearfix (clear floats) */
+.row::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+
+.row .img {
+  filter: grayscale(80%);
+}
+
+.row .img:hover {
+  filter: grayscale(0%);
+}
+
+
+
+/* GOD DAMN USELESS
+.mmimg{
+  background-image: url("img/mmcover@1x.png");
+  background-size: cover;
+    position: relative;
+    overflow: hidden;
+    width: 25%;
+}
+
+.ufimg{
+  background-image: url("img/0508-16@1x.png");
+  background-size: cover;
+    position: relative;
+    overflow: hidden;
+    width: 100%;
+}
+.graimg{
+  background-image: url("img/tokyo1@1x.png");
+  background-size: cover;
+    position: relative;
+    overflow: hidden;
+    width: 100%;
+}
+.cwimg{
+  background-image: url("img/oilp@1x.png");
+  background-size: cover;
+    position: relative;
+    overflow: hidden;
+    width: 100%;
+} */
